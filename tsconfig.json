@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "module": "amd",
+    "outFile": "dist/tetris.js",
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": [
+      "dom"
+    ]
+  },
+  "exclude": [
+    "test"
+  ]
+}
