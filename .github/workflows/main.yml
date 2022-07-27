@@ -17,4 +17,4 @@ jobs:
 
     # Run our deployment command
     - name: Deploying the static website to gh-pages
-      run: tsc --target es6 --module commonjs && npm run move-files && git push origin `git subtree split --prefix dist master`:gh-pages --force
+      run: npx tsc && npm run move-files && git push origin `git subtree split --prefix dist master`:gh-pages --force
